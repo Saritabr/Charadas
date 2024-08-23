@@ -61,7 +61,7 @@ button:hover {
     left: 0; /* Alinhando à esquerda */
     width: 100%; /* Cobrindo toda a largura */
     height: 100%; /* Cobrindo toda a altura */
-    background-image: url('fundo.png'); /* Definindo a imagem de fundo */
+    background-image: url('img/fundo.png'); /* Definindo a imagem de fundo */
     background-size: cover; /* Cobrindo toda a área */
     z-index: 0; /* Definindo um índice de camada inferior à caixa */
 }
