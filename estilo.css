@@ -1,0 +1,68 @@
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif; /* Definindo a fonte padrão */
+    margin: 0; /* Removendo margens padrão */
+    padding: 0; /* Removendo preenchimento padrão */
+    background-color: #f0f0f0; /* Cor de fundo */
+    position: relative; /* Necessário para o posicionamento absoluto */
+}
+
+/* Estilo para o strong */
+strong {
+    font-weight: bold;
+    color: #e8dc6f; /* Deixando o texto em negrito */
+}
+
+/* Estilo para o em */
+em {
+    font-style: italic;
+    color: #f0f0f0; /* Deixando o texto em itálico */
+}
+
+/* Estilo para o button */
+button {
+    margin-top: 20px; /* Adicionando margem superior */
+    padding: 10px 20px; /* Adicionando preenchimento interno */
+    background-color: #DF676C; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Removendo a borda */
+    cursor: pointer; /* Mudando o cursor ao passar por cima */
+    border-radius: 5px; /* Adicionando bordas arredondadas */
+}
+
+
+/* Estilo para o button quando hover */
+button:hover {
+    background-color: white; /* Alterando a cor de fundo no hover */
+    color:#DF676C;
+}
+
+/* Estilo para a caixa (box) */
+.box {
+    position: absolute; /* Posicionamento absoluto */
+    margin-top: 350px; /* Movendo a caixa para baixo */
+    left: 50%; /* Centralizando horizontalmente */
+    transform: translate(-50%, -50%); /* Ajustando para centralizar completamente */
+    width: 80%; /* Definindo a largura */
+    max-width: 600px; /* Largura máxima */
+    padding: 20px; /* Adicionando espaçamento interno */
+    border: 2px solid white; /* Adicionando borda */
+    background-color: #36A4C0; /* Cor de fundo com transparência */
+    border-radius: 10px; /* Adicionando bordas arredondadas */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Adicionando sombra */
+    text-align: center; /* Alinhando o conteúdo ao centro */
+   
+}
+
+/* Estilo para a imagem de fundo */
+.background-image {
+    position: fixed; /* Posicionamento fixo para cobrir todo o fundo */
+    top: 0; /* Alinhando no topo */
+    left: 0; /* Alinhando à esquerda */
+    width: 100%; /* Cobrindo toda a largura */
+    height: 100%; /* Cobrindo toda a altura */
+    background-image: url('img/fundo.png'); /* Definindo a imagem de fundo */
+    background-size: cover; /* Cobrindo toda a área */
+    z-index: 0; /* Definindo um índice de camada inferior à caixa */
+}
+
